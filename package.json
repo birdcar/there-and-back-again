@@ -1,0 +1,20 @@
+{
+  "name": "there-and-back-again",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export --with-clicks"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.0-beta.6",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "@yettoapp/slidev-theme-yetto": "^0.4.2",
+    "vue": "^3.4.26"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.43.1"
+  }
+}
